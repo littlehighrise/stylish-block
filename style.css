@@ -1,0 +1,77 @@
+.normal { font-style: normal; }
+.italic { font-style: italic; }
+.regular { font-weight: 400; }
+.bold { font-weight: 700; }
+.black { font-weight: 900; }
+.serif { font-family: Playfair Display; }
+.sans-alt { font-family: Montserrat; }
+
+p {
+  font-family: Quattrocento Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.neighborhood-headelement {
+  height: 250px;
+  width: 480px;
+  float:none;
+  margin: 4% auto;
+}
+
+h1 {
+font-family: Playfair Display;
+font-weight: 400;
+font-size: 56px;
+line-height: 65px;
+text-align: left;
+color: #000;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+}
+
+h2 {
+  font-family: Playfair Display;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 44px;
+  line-height: 25px;
+  -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.neighborhood-heading {
+  color: #fff;
+  text-align: center;
+}
+
+.mont {
+  font-family: Montserrat, sans-serif;
+}
+
+.fancy-headsmall {
+  font-family: Playfair Display;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  line-height: 0px;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+#fancy-botheadsmall {
+  padding-top: 7px;
+}
+
+.ng-blackbg {
+  background-color: rgba(38, 37, 82, 1);
+  border: 2px solid #fff;
+  padding: 60px 0;
+}
